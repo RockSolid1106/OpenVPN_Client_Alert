@@ -45,3 +45,5 @@ And that's it! Go into the terminal and run the script by typing:
 sudo bash client_alert.sh
 
 The script will run itself every 10 seconds to check the log file, and will send a Telegram message if a client is connected.
+
+
