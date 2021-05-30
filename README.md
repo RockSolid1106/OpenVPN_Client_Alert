@@ -21,7 +21,7 @@ Make a note of the chat ID, or the numbers after the '-' sign. So, your Chat ID 
 
 That's it for the Telegram part. Now lets move to the script.
 
-##Getting the Script
+## Getting the Script
 
 Start off by getting the script, and applying appropriate permissions:
 ```
