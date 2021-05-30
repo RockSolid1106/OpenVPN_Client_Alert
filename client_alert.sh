@@ -1,5 +1,5 @@
-token=" " # ----> Enter your Telegram Bot token here.
-chatid=" " # ----> Enter your Telegram Chat ID here. Remember to include the '-' sign.
+token="" # ----> Enter your Telegram Bot token here.
+chatid="" # ----> Enter your Telegram Chat ID here. Remember to include the '-' sign.
 echo "Script Started"
 sent="true" # ----> This variable will store a value of True or False, depending on whether the message was previously sent. This helps preventing spamming of duplicate messages.
 while(true)
