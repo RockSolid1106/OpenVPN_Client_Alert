@@ -14,7 +14,7 @@ If you get a result like,
 {"ok":true,"result":[]}
 ```
 go to the channel(on Telegram) and send a message. This message can contain anything.
-Then search for the following text on the website:
+Then reload the page, and search for the following text on the website:
 ```
 chat":{"id":-1001329888055
 ```
