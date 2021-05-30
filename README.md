@@ -1,5 +1,5 @@
 # OpenVPN_Client_Alert
-This is a very simple alerting system, which will send out a telegram message on a channel when there is a client connected. This involves a Telegram Bot. Steps to make one mentioned below.
+This is a very simple alerting system, which will send out a Telegram message on a channel when there is a client connected. This involves a Telegram Bot. Steps to make one mentioned below.
 
 This is my first time creating a Project on GitHub. I hope you guys keep that in mind, and help me if I dont know about certain parts of GitHub.
 
@@ -12,12 +12,12 @@ If you get a result like,
 ```
 {"ok":true,"result":[]}
 ```
-go to channel and send a message. This message can contain anything.
-Then search for:
+go to the channel(on Telegram) and send a message. This message can contain anything.
+Then search for the following text on the website:
 ```
 chat":{"id":-1001329888055
 ```
-Make a note of the chat ID, or the numbers after the '-' sign. 
+Make a note of the chat ID, or the numbers after the '-' sign. So, your Chat ID should look something like: -xxxxxxxxxxxxx.
 
 That's it for the Telegram part. Now lets move to the script.
 
@@ -36,10 +36,11 @@ Then, open the file:
 nano client_alert.sh
 ```
 Now, change the values of the variables "token" and "chatid" with the values you acquired earlier. Be sure to add the word 'bot' before your token, and the '-' sign before your chat ID.
-![image](https://user-images.githubusercontent.com/84492239/120105233-b069f300-c175-11eb-8e63-524e2c2cfd0c.png)
+![image](https://user-images.githubusercontent.com/84492239/120107543-042d0a00-c17f-11eb-8e9b-06ba09df3172.png)
+
 
 And that's it! Go into the terminal and run the script by typing:
 ```
-sudo ./client_alert.sh
+sudo bash client_alert.sh
 
-
+The script will run itself every 10 seconds to check the log file, and will send a Telegram message if a client is connected.
