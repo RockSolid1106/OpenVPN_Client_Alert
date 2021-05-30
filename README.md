@@ -25,7 +25,7 @@ That's it for the Telegram part. Now lets move to the script.
 
 Start off by getting the script, and applying appropriate permissions:
 ```
-curl -O https://gist.githubusercontent.com/RockSolid1106/086717e5de583d6054971c0b0b836386/raw/6fb2722983161ff7077e6f450a85bcc40bb9685f/client_alert.sh
+curl -O https://raw.githubusercontent.com/RockSolid1106/OpenVPN_Client_Alert/master/client_alert.sh
 ```
 ```
 chmod 700 client_alert.sh
