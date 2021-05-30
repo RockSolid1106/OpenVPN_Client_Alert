@@ -22,7 +22,7 @@ If you get a result like,
 go to the channel(on Telegram) and send a message. This message can contain anything.
 Then reload the page, and search for the following text on the website:
 ```
-chat":{"id":-1001329888055
+chat":{"id":-xxxxxxxxxxxxx
 ```
 Make a note of the chat ID, or the numbers after the '-' sign. So, your Chat ID should look something like: -xxxxxxxxxxxxx.
 
