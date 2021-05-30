@@ -26,6 +26,10 @@ chat":{"id":-1001329888055
 ```
 Make a note of the chat ID, or the numbers after the '-' sign. So, your Chat ID should look something like: -xxxxxxxxxxxxx.
 
+As a test to check if you've configured the bot correctly, navigate to the following website:
+
+https://api.telegram.org/<token>/sendMessage?chat_id=<chat ID>'&'text=test+message
+
 That's it for the Telegram part. Now lets move to the script.
 
 ## The Script
