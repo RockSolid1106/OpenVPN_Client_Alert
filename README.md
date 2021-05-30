@@ -28,7 +28,7 @@ Make a note of the chat ID, or the numbers after the '-' sign. So, your Chat ID 
 
 As a test to check if you've configured the bot correctly, navigate to the following website:
 
-https://api.telegram.org/<token>/sendMessage?chat_id=<chat ID>'&'text=test+message
+https://api.telegram.org/(token)/sendMessage?chat_id=(chat ID)&text=test+message
 
 That's it for the Telegram part. Now lets move to the script.
 
