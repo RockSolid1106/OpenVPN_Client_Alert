@@ -1,5 +1,7 @@
 # OpenVPN Client Alert
 This is a very simple alerting system, which will send out a Telegram message on a channel when there is a client connected. This involves a Telegram Bot. Steps to make one mentioned below.
+![image](https://user-images.githubusercontent.com/84492239/120111280-f5e6ea00-c18e-11eb-8e38-643df5aab854.png)
+
 
 This is my first time creating a Project on GitHub. I hope you guys keep that in mind, and help me if I dont know about certain parts of GitHub.
 
