@@ -3,6 +3,13 @@ This is a very simple alerting system, which will send out a Telegram message on
 
 ![image](https://user-images.githubusercontent.com/84492239/120111280-f5e6ea00-c18e-11eb-8e38-643df5aab854.png)
 
+## Prerequisites
+- A phone with Telegram installed.
+- A PC with Ubuntu or any Debian-based OS installed.
+- **Curl Package installed(use: ```sudo apt install curl``` to install curl).
+- Optional, but log onto Telegram Web(web.telegram.org) to help ease the copy and pasting of tokens.
+- That's it!
+
 
 This is my first time creating a Project on GitHub. I hope you guys keep that in mind, and help me if I dont know about certain parts of GitHub.
 
@@ -58,5 +65,8 @@ sudo bash client_alert.sh
 ```
 The script will run itself every 10 seconds to check the log file, and will send a Telegram message if a client is connected.
 
+## Tests
+This script was tested on Ubuntu 20.10.
 
 As said, this is a very simple script. I hope to see many contributions to make this a good one.
+
