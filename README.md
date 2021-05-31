@@ -6,7 +6,7 @@ This is a very simple alerting system, which will send out a Telegram message on
 ## Prerequisites
 - A phone with Telegram installed.
 - A PC with Ubuntu or any Debian-based OS installed.
-- **Curl Package installed(use: ```sudo apt install curl``` to install curl).
+- **Curl Package installed(use: ```sudo apt install curl``` to install curl).**
 - Optional, but log onto Telegram Web(web.telegram.org) to help ease the copy and pasting of tokens.
 - That's it!
 
